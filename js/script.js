@@ -28,6 +28,7 @@ fromText.addEventListener("keyup", () => {
     }
 });
 
+
 translateBtn.addEventListener("click", () => {
     let text = fromText.value.trim(),
         translateFrom = selectTag[0].value,
